@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "79216289541",
+    "firebase_url": "https://fir-chat-59b2b.firebaseio.com",
+    "project_id": "fir-chat-59b2b",
+    "storage_bucket": "fir-chat-59b2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79216289541:android:1f0e00bf71c19b57",
+        "android_client_info": {
+          "package_name": "muthusoft.com.firebase_notification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79216289541-ba3c6053r75p92mp1pgm9aje4o2568n9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi94TMTO1Nw7eHqpdmpnNWg7mXjXL5UYE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79216289541:android:26ff301b0ce48501",
+        "android_client_info": {
+          "package_name": "com.muthusoft.edi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79216289541-s1sbqg2lh463gmj94fshh6kt1e8a91si.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muthusoft.edi",
+            "certificate_hash": "5CD7D303F511FAF824027D30BC24706D9230B0FE"
+          }
+        },
+        {
+          "client_id": "79216289541-ba3c6053r75p92mp1pgm9aje4o2568n9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi94TMTO1Nw7eHqpdmpnNWg7mXjXL5UYE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79216289541-ba3c6053r75p92mp1pgm9aje4o2568n9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

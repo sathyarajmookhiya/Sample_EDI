@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TN-EDI</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="govtdepartment">
+        <item>Select Govt.Department</item>
+        <item>State Government</item>
+        <item>Central Government</item>
+    </string-array>
+
+    <string name="cancel">cancel</string>
+    <string name="ok">ok</string>
+</resources>
