@@ -21,7 +21,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.muthusoft.edi.helper.DataBaseHelper;
@@ -54,9 +56,11 @@ public class LoginActivity extends AppCompatActivity {
     String password = null;
     boolean rememberMe;
     DataBaseHelper db = new DataBaseHelper(LoginActivity.this);
+    TextView btnSignup;
+    ImageButton btnLogin;
     private EditText inputEmail, inputPassword;
     private ProgressBar progressBar;
-    private Button btnSignup, btnLogin, btnReset;
+    private Button btnReset;
     private int remember = 1;
     private CheckBox saveLoginCheckBox;
     private Boolean saveLogin;
@@ -73,8 +77,8 @@ public class LoginActivity extends AppCompatActivity {
         inputEmail = (EditText) findViewById(R.id.email);
         inputPassword = (EditText) findViewById(R.id.password);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
-        btnSignup = (Button) findViewById(R.id.btn_signup);
-        btnLogin = (Button) findViewById(R.id.btn_login);
+        btnSignup = (TextView) findViewById(R.id.btn_signup);
+        btnLogin = (ImageButton) findViewById(R.id.btn_login);
         btnReset = (Button) findViewById(R.id.btn_reset_password);
         saveLoginCheckBox = (CheckBox) findViewById(R.id.checkBox);
 
@@ -173,6 +177,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
